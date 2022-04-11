@@ -1,0 +1,33 @@
+.footer{
+    width : 100%;
+    height : 17.93vw;
+}
+
+.footer_logo{
+    font-size : 6rem;
+    color : $blue1;
+    text-align : center;
+    margin-top : 4.75vw;
+    margin-bottom : 1.39vw;
+}
+
+.copywrite{
+    font-size : 1.2rem;
+    text-align : center;
+}
+
+@media(max-width :767px){
+    .footer{
+        height : 41.3vw;
+    }
+    
+    .footer_logo{
+        font-size : 3.4rem;
+        margin-top : 10.66vw;
+        margin-bottom : 6.13vw;
+    }
+    
+    .copywrite{
+        font-size : 1rem;
+    }
+}

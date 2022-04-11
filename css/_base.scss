@@ -1,0 +1,32 @@
+/* 変数*/
+$blue1: #1f2774;
+$blue2: #b5e9ee;
+$yellow1: #f6f3dc;
+$yellow2: #ebe4af;
+$red1 : #7f1019;
+$black: #000;
+$white : #fff;
+
+/* ベーススタイル*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: $black;
+    background-color: $white;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    width : 100%;
+}

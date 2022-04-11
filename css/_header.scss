@@ -1,0 +1,135 @@
+/*ヘッダー*/
+.header{
+    height : 5.86vw;
+    background-color : #fcfbf4;
+    display : flex;
+    justify-content : space-between;
+    padding-left : 8.418vw;
+    padding-right : 8.418vw;
+}
+
+.logo{
+    color : $blue1;
+    font-size : 3.29vw;
+    width : 25.55vw;
+    margin-right : 2.85vw;
+}
+
+.pc_nav_ul{
+    list-style : none;
+    display : flex;
+    padding: 0;
+}
+
+.pc_nav_ul li{
+    text-align : center;
+    line-height : 3.29vw;
+    width : 12.079vw;
+    height : 3.29vw;
+    border : 1px solid #606060;
+    margin-right : 2.269vw;
+    background-color :$white;
+}
+
+.header_wrap{
+    display : flex;
+    align-items : center;
+}
+
+.application_button_s{
+    width : 12.15vw;
+    height  :3.29vw;
+    background-color : $blue1;
+    background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgb(31,39,116)), color-stop(70%,rgb(54,64,158)),color-stop(100%,rgb(67,76,153)));   /*古いWebkitブラウザ用の記述*/
+    background-image: -moz-linear-gradient( 270deg, rgb(31,39,116) 0%, rgb(54,64,158) 70%, rgb(67,76,153) 100%);
+    background-image: -webkit-linear-gradient( 270deg, rgb(31,39,116) 0%, rgb(54,64,158) 70%, rgb(67,76,153) 100%);
+    background-image: -ms-linear-gradient( 270deg, rgb(31,39,116) 0%, rgb(54,64,158) 70%, rgb(67,76,153) 100%);
+    background-image: linear-gradient( 270deg, rgb(31,39,116) 0%, rgb(54,64,158) 70%, rgb(67,76,153) 100%);  /*ベンダープレフィックスなしの記述*/
+    color : $white;
+    line-height : 3.29vw;
+    text-align : center;
+    font-weight : 700;
+}
+
+.head_right {
+    padding-right : 10px;
+}
+
+@media(max-width : 767px){
+    .header{
+    display :none;
+}
+}
+
+/*spヘッダー*/
+.sp_header{
+    display : none;
+  }
+  
+   @media(max-width : 767px){
+    .sp_header{
+      display : block;
+      position : fixed;
+      top:0;
+      z-index : 10;
+      width : 100%;
+      height : 16vw;
+      background-color : #fcfbf4;  
+      display :flex;
+      align-items : center; 
+      justify-content: space-between;
+    }
+    .sp_nav_wrap{
+      padding-top : 0;  
+    }
+    .sp_logo{
+      position : relative;
+      padding-top :0;
+      width : 48.266vw;
+      margin : 5.06vw auto 3.73vw 4.53vw;
+      font-size: 6.13vw;
+      color:$blue1;
+    }
+  }
+  /*ハンバーガーメニュー*/
+ .hamburger{
+    font-size : 12.8vw; 
+    margin-right : 3.73vw;
+    color:#606060;
+  }
+  #menu {
+    cursor: pointer;
+  }
+  
+    .sp_nav {
+   display: none;
+   position: absolute;
+   width : 100%;
+   height : 29.33vw;  
+   top: 16vw;
+    left: 0;
+    background-color : #ffffff; 
+  }
+  
+  
+  .sp_nav_ul{
+    list-style : none;
+    margin-left : 5.06vw; 
+    padding-left : 0;
+  }
+  
+  .sp_nav_ul li{
+    font-size : 4.2vw;
+    line-height : 6.4vw;
+    margin-bottom : 2.13vw;
+    color: #000;
+    &:first-child{
+        margin-top:3.73vw;
+    }
+  }
+  
+  
+  .sp_nav_ul li a{
+    display : block;
+  }
+  

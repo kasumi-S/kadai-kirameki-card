@@ -1,0 +1,369 @@
+/*見出し共通*/
+.heading{
+    padding-top : 3.66vw;
+    padding-bottom : 4.39vw;
+    color : $blue1;
+    font-size : 2.63vw;
+    font-weight : 700;
+    text-align : center;
+    line-height: 3.6rem;
+    margin : 0;
+}
+
+.sp_br{
+    display :none;
+}
+
+@media(max-width :767px){
+    .heading{
+        font-size : 7.4vw;
+        padding-top :10.66vw;
+        padding-bottom : 11.2vw;
+        margin :0 auto;
+    }
+    .sp_br{
+        display :block;
+    }
+    
+}
+
+/*隙間*/
+.gap{
+    width : 100%;
+    height:16.83vw;
+    background-color : $white;  
+    position : relative;
+    z-index : -1
+}
+@media(max-width :767px){
+    .gap{
+        padding-top :35vw;
+        }
+}
+.gap::before {
+    border-color: transparent transparent transparent $blue2;
+    border-style: solid;
+   border-width: 7.32vw 0 0 100vw;
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+  }
+/*特典サービス*/
+
+.benefit_service{
+    width : 100%;
+    height : 86.35vw;
+    background-color : $yellow1;
+    position :relative;
+}
+.benefit_table{
+    width : 69.54vw;
+    text-align: center;
+    border-collapse:collapse;
+    margin :0 auto;
+}
+.benefit_table td{
+background-color: $white;
+}
+
+.h_cell{
+    width : 20.42vw;
+    height : 9.51vw;
+}
+
+.benefit_table tr{
+    border-bottom: 0.51vw solid $yellow1;
+    }
+
+.t_head{
+    display : block;
+    height: 9.51vw;
+    border-right : 0.51vw solid #ccc;
+    line-height : 9.51vw;
+}
+
+
+.d_cell{
+    width : 48.9vw;
+    height : 9.51vw;
+}
+
+.left_top{
+    border-radius: 3.29vw 0 0 0;
+}
+.right_top{
+    border-radius: 0 3.29vw 0 0;
+}
+
+.left_bottom{
+    border-radius: 0 0 0 3.29vw;
+}
+
+.right_bottom{
+    border-radius: 0 0 3.29vw 0;
+}
+
+.bold{
+    font-size : 1.75vw;
+    font-weight : 700;
+    line-height : 3.07vw;
+}
+
+.bold_head{
+    font-size : 1.75vw;
+    font-weight : 700;
+}
+
+.red_m{
+    color : $red1;
+    font-weight: 700;
+    font-size : 1.75vw;
+    line-height : 3.07vw;
+}
+
+.red_l{
+    color :$red1;
+    font-size : 3.51vw;
+    font-weight: 700;
+    line-height : 3.07vw;
+
+}
+
+.regular{
+    font-size : 1.6rem;
+}
+
+.benefit_service::before {
+    border-color: transparent transparent transparent $white;
+    border-style: solid;
+   border-width: 7.32vw 0 0 100vw;
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+  }
+
+  .annnotation{
+      font-size : 1.17vw;
+  }
+
+  .supplement{
+      width : 69.54vw;
+      margin :2.2vw auto 0;
+      display : flex;
+      align-items: flex-start;
+      font-size : 1.6rem;
+      line-height : 2rem;
+  }
+
+  .spp_p{
+      display:block;    
+  }
+
+@media(max-width :767px){
+.benefit_service{
+
+    height :189vw;
+
+}
+.benefit_table{
+    width : 92vw;;
+    margin :0 4vw 8vw;
+}
+.benefit_table td{
+background-color: $white;
+}
+
+.h_cell{
+    width : 27.01vw;
+    height : 15.52vw;
+}
+
+.benefit_table tr{
+    border-bottom: 1.33vw solid $yellow1;
+    }
+
+.t_head{
+    height: 15.52vw;
+    border-right : 0.8vw solid #ccc;
+    line-height : 15.52vw;
+}
+
+
+.d_cell{
+    width : 64.19vw;
+    height : 15.52vw;
+}
+
+.left_top{
+    border-radius: 12vw 0 0 0;
+}
+.right_top{
+    position : relative;
+    border-radius: 0 12vw 0 0;
+}
+
+.left_bottom{
+    border-radius: 0 0 0 12vw;
+}
+
+.right_bottom{
+    border-radius: 0 0 12vw 0;
+}
+
+.bold{
+    font-size : 3.73vw;
+    line-height : 4.8vw;
+}
+
+.bold_head{
+    font-size : 3.73vw;
+}
+
+.red_m{
+    font-size : 3.73vw;
+    line-height : 4.8vw;
+}
+
+.red_l{
+    color :$red1;
+    font-size : 7.46vw;
+    line-height : 4.08vw;
+
+}
+
+.regular{
+    font-size : 1.2rem;
+}
+
+
+  .annnotation{
+      font-size : 2.66vw;
+  }
+
+  .sp_position{
+      position :absolute;
+      top:5.86vw;
+      right:4vw;
+  }
+
+.supplement{
+      width : 92vw;
+      margin-right :4vw ;
+      margin-left : 4vw;
+      font-size : 1.2rem;
+ 
+}
+.sp_bottom{
+    margin-bottom :4vw;
+
+}
+
+
+  .spp_p{
+      display:block;    
+  }
+}
+
+/*基本情報*/
+.base_info{
+    width :100%;
+    height : 83.13vw;
+    position : relative;
+}
+.base_info_table{
+    margin :0 auto;
+    border-collapse: collapse;
+    border:1px solid #606060;
+    font-size : 1.117vw;
+    line-height : 1.117vw;
+}
+.base_info_th{
+    background-color : $yellow2;
+    width :19.33vw;
+    border:1px solid #606060;
+    line-height :4.1vw;
+    text-align : center;
+}
+
+.base_info_td{
+    width :50.1vw;
+    border:1px solid #606060;
+    padding: 1.46vw 2.05vw;
+}
+
+.info_annotation{
+    display : inline-block;
+    font-size :1.0vw;
+    line-height : 2.05vw;
+    margin-top : 2.2vw;
+}
+
+.annotation_flex{
+    display : flex;
+    margin-top: 2.19vw;
+}
+.annotation_block{
+    display :block;
+}
+.line_height {
+    line-height : 2.04vw;
+}
+
+.base_info::before {
+    border-color: transparent transparent transparent $blue2;
+    border-style: solid;
+   border-width: 9.66vw 0 0 100vw;
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+  }
+
+  @media(max-width : 767px){
+    .base_info{
+        height : 230vw;
+    }
+    .base_info_table{
+        width :92vw;
+        font-size : 1.2rem;
+        line-height : 1.749rem;
+    }
+    .base_info_th{
+        width :32.53vw;
+        text-align : center;
+    }
+    
+    .base_info_td{
+        width :59.47vw;
+        padding: 4vw 2.05vw;
+    }
+    
+    .info_annotation{
+        font-size :0.99rem;
+        line-height : 1.749rem;
+        margin-top : 4vw;
+    }
+    
+    .annotation_flex{
+        margin-top: 2.19vw;
+    }
+    .line_height {
+        line-height : 2.1rem;
+    }
+    
+    .base_info::before {
+        border-color: transparent transparent transparent $blue2;
+        border-style: solid;
+       border-width: 9.66vw 0 0 100vw;
+        bottom: 0;
+        content: "";
+        height: 0;
+        position: absolute;
+      }
+      .sp_baseinfo_p{
+          display : block;
+
+      }
+  }

@@ -1,0 +1,349 @@
+
+
+/*広告部分*/
+.ad_heading{
+    padding-top : 1.83vw;
+    padding-bottom : 4.39vw;
+    color : $blue1;
+    font-size : 2.63vw;
+    font-weight : 700;
+    text-align : center;
+    line-height: 2.63vw;
+    margin : 0;
+}
+
+.join1{
+    position : relative;
+    width : 100%;
+    height : 70vw;
+    background-color : $blue2;
+    //clip-path: polygon(0 0, 100% 2.71vw, 100% calc(100% - 3vw) , 0 100%);
+}
+
+.join2{
+    position : relative;
+    width : 100%;
+    height : 70vw;
+    background-color : $blue2;
+    //clip-path: polygon(0 0, 100% 2.71vw, 100% calc(100% - 3vw) , 0 100%);
+}
+
+
+.vertical{
+    -ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+    font-size : 3.8vw; 
+    color : $blue1;
+    line-height : 3vw;
+}
+
+.font_l_red{
+    font-size : 8.78vw;
+    color : $red1;
+    line-height : 8.78vw;
+    font-weight : 700;
+}
+
+.point{
+    color : $blue1;
+    font-size : 3.8vw;
+}
+
+.text_center_present{
+    color : $blue1;
+    font-size : 3.8vw;
+    line-height : 3.8vw;
+    font-weight : bold;
+}
+.small{
+    font-size :1.17vw;
+    vertical-align : top;
+    color : $blue1;
+    line-height : 9.88vw;
+}
+
+.join_detail{
+    text-align : center;
+    padding-top : 3.58vw;
+   
+}
+
+.join_wrap{
+    background-color : $white;
+    width : 55.198vw;
+    height : 42.02vw;
+    margin : 0 auto;
+    box-shadow: 0px 10px 10px 0px rgba(32, 32, 32, 0.2);
+}   
+
+.campaign_period{
+    height :3vw;
+    overflow:hidden;
+}
+.campaign {
+    position: relative;
+    width : 14.71vw;
+    height : 2.63vw;
+    margin-right : 0;
+    background-color : $yellow1;
+    border-left:1px solid #222;
+    border-top:1px solid #222;
+    border-bottom:1px solid #222;
+    color : $blue1;
+    text-align: center;
+    line-height: 2.63vw;
+}
+.campaign::before{
+    content: "";
+    position: absolute;
+    border-top: 1.315vw solid transparent;
+    border-bottom: 1.315vw solid transparent;
+    border-right: 1.315vw solid transparent;
+    border-left: 1.315vw solid $yellow1;
+    left:14.6vw;
+    z-index:2
+}
+.campaign::after{
+    content: "";
+    position: absolute;
+    border-top: 1.315vw solid transparent;
+    border-bottom: 1.315vw solid transparent;
+    border-right: 1.315vw solid transparent;
+    border-left: 1.315vw solid $black;
+    left:14.7vw;
+    z-index :1
+}
+
+.period {
+    width : 27.38vw;
+    height : 2.63vw;
+    margin-left : 0;
+    border : 1px solid #222;
+    text-align: center;
+    line-height: 2.63vw;
+}
+
+.campaign_period{
+    margin : 02.85vw auto 2.19vw auto;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+.campaign_caution{
+    display : flex;
+    align-items: flex-start;
+    justify-content : center;
+}
+
+.subject{
+    font-size : 1.17vw;
+    display  :block;
+    line-height:1.17vw;
+    width : 39.31vw;
+}
+
+.rice_2{
+    font-size : 1.17vw;
+    padding-right :  0.65vw;
+    line-height: 1.17vw;
+}
+
+.caution_detail{
+    font-size : 1.17vw;
+    line-height :1.17vw;
+}
+
+.detail_first{
+    width : 39.31vw;
+    margin:2.41vw auto 2.41vw auto;
+
+}
+
+.detail_second{
+    width : 39.31vw;
+    margin:0 auto;
+}
+.flex{
+    display : flex;
+}
+.not_app_block{
+    display : block;
+}
+
+.application_button_l{
+    width : 40.85vw ;
+    height : 4.68vw;;
+    background-color : $blue1;
+    border-radius : 3.2rem;
+    font-size : 2.57vw;
+    color : $white;
+    font-weight : 700;
+    text-align : center;
+    margin : 4.39vw auto 0 auto;
+    background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgb(31,39,116)), color-stop(70%,rgb(54,64,158)),color-stop(100%,rgb(67,76,153)));   /*古いWebkitブラウザ用の記述*/
+    background-image: -moz-linear-gradient( 270deg, rgb(31,39,116) 0%, rgb(54,64,158) 70%, rgb(67,76,153) 100%);
+    background-image: -webkit-linear-gradient( 270deg, rgb(31,39,116) 0%, rgb(54,64,158) 70%, rgb(67,76,153) 100%);
+    background-image: -ms-linear-gradient( 270deg, rgb(31,39,116) 0%, rgb(54,64,158) 70%, rgb(67,76,153) 100%);
+    background-image: linear-gradient( 270deg, rgb(31,39,116) 0%, rgb(54,64,158) 70%, rgb(67,76,153) 100%); 
+    box-shadow: 0px 10px 10px 0px rgba(32, 32, 32, 0.2);
+}
+
+.ad_right{
+    margin-right : 1.46vw;
+}
+
+.join1::before {
+    border-color: transparent #f6f3dc transparent transparent;
+    border-style: solid;
+    border-width: 6.95vw 100vw 0 0;
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+  }
+
+  .join2::before {
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+    border-width: 7.32vw 100vw 0 0;
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+  }
+
+
+@media(max-width :767px){
+    .ad_heading{
+        font-size : 7.4vw;
+        padding-top:11.73vw;
+        padding-bottom:11.2vw;
+        line-height : 7.4vw;
+    }
+    .join1{
+        height : 154vw;
+    }
+    .join2{
+        height : 154vw;
+    }
+    .join_wrap{
+        background-color : $white;
+        width : 92vw;
+        height : 82.66vw;
+        margin : 0 auto;
+
+    }   
+    .application_button_l{
+        width :92vw;
+        height : 10.55vw;
+        margin-top : 10.66vw;
+        margin-bottom : 10.66vw;
+        font-size : 5.866vw;
+        line-height : 10.55vw;
+    }
+    .ad_right{
+        margin-right : 2.93vw;
+    }
+    .join_detail{
+        padding-top : 5.86vw;
+    }
+    .vertical{
+        font-size: 7.61vw;
+        line-height:8vw;
+    }
+    .font_l_red{
+        font-size: 17.56vw;
+    }
+    .point{
+        font-size : 7.61vw;
+    }
+    .text_center_present{
+        font-size : 7.61vw;
+    }
+    .small{
+        font-size : 2.3vw;
+        line-height : 18.88vw;
+    }
+
+.campaign {
+    width : 29.6vw;
+    height : 5.06vw;
+    line-height: 5.06vw;
+    font-size : 3.46vw;
+}
+
+.campaign_period{
+    height :6vw;
+    overflow:hidden;
+}
+
+.campaign::before{
+    content: "";
+    position: absolute;
+    border-top: 2.53vw solid transparent;
+    border-bottom: 2.53vw solid transparent;
+    border-right: 2.53vw solid transparent;
+    border-left: 2.53vw solid $yellow1;
+    left:29.7vw;
+    z-index:2
+}
+.campaign::after{
+    content: "";
+    position: absolute;
+    border-top: 2.53vw  solid transparent;
+    border-bottom: 2.53vw  solid transparent;
+    border-right:2.53vw  solid transparent;
+    border-left: 2.53vw  solid $black;
+    left:29.9vw;
+    z-index :1
+}
+
+.period {
+    width : 56.53vw;
+    height : 5.06vw;
+    line-height: 5.06vw;
+    font-size : 3.2vw;
+}
+
+.campaign_period{
+    margin : 5.33vw auto;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+.campaign_caution{
+    display : flex;
+    align-items: flex-start;
+    justify-content : center;
+}
+.rice_2{
+    font-size : 2.66vw;
+    padding-right :  1.06vw;
+    line-height: 2.66vw;
+}
+
+
+.subject{
+    font-size : 2.66vw;
+    display  :block;
+    line-height:3vw;
+    width :80vw;
+}
+
+.caution_detail{
+    font-size : 2.66vw;
+    line-height :3vw;
+}
+
+.detail_first{
+    width : 80vw;
+    margin:2.66vw auto 2.66vw;
+
+}
+
+.detail_second{
+    width : 80vw;
+    margin:0 auto;
+    line-height : 3vw;
+}
+}

@@ -1,0 +1,103 @@
+/*トップ*/
+
+.main_top{
+    position : relative;
+    z-index: 0;
+    background-color : $yellow1;
+    background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgb(237,230,178)), color-stop(30%,rgb(246,239,184)),color-stop(100%,rgb(246,243,220)));   /*古いWebkitブラウザ用の記述*/
+    background-image: -moz-linear-gradient( 0deg, rgb(237,230,178) 0%, rgb(246,239,184) 30%, rgb(246,243,220) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(237,230,178) 0%, rgb(246,239,184) 30%, rgb(246,243,220) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(237,230,178) 0%, rgb(246,239,184) 30%, rgb(246,243,220) 100%);
+    background-image: linear-gradient( 0deg, rgb(237,230,178) 0%, rgb(246,239,184) 30%, rgb(246,243,220) 100%);  /*ベンダープレフィックスなしの記述*/
+    width : 100%;
+    height : 56.22vw;
+}
+.sp_join_button{
+    display : none;
+
+}
+  
+.main_catch{    
+    font-size : 2.635vw;
+    line-height : 2.635vw;
+    font-weight : 400;
+    color : $blue1;
+    text-align : center;
+    padding-top : 8.12vw;
+    margin: 0;
+    padding-bottom : 4.39vw;
+    box-sizing: border-box;
+}
+.main_img{
+    width :33.67vw;
+    margin : 0 auto;
+}
+.stack{
+    width:69.54vw;
+    height : 4.39vw;
+    margin : 0 auto;
+    background-color : $white;
+    box-shadow: 0px 10px 10px 0px rgba(32, 32, 32, 0.2);  
+    position: relative;
+    z-index: 1;
+    margin-top: 17.5vw;
+  } 
+
+.sub_catch{
+    color : $blue1;
+    font-size : 1.756vw;
+    line-height : 4.39vw;
+    text-align : center;
+}
+@media(max-width : 767px){
+    .main_top{
+        top : 16vw;
+        height : 176.8vw;
+    }
+    .sp_join_button{
+        margin :16vw auto 0;
+        display :block;
+        width : 44.26vw;
+        height : 12vw;
+        font-size :4.8vw;
+        background-color : $blue1;
+        text-align : center;
+        color :$white;
+        line-height : 12vw;
+}
+    .sp_join_p{
+        margin-right : 2.9vw;
+    }
+    .main_catch{
+        width : 81.6vw;
+        margin : 0 auto;
+        line-height : 4.2rem;
+        font-size : 2.4rem; 
+        padding-top:21.06vw;
+        padding-bottom : 16vw;
+    }
+    .main_img{
+        width :92vw;
+        margin : 0 auto;
+    }
+    .stack{
+        width: 92vw;
+        height : 44.8vw;
+        margin : 8vw auto 0;
+        box-shadow: 0px 10px 10px 0px rgba(32, 32, 32, 0.2);  
+        position: relative;
+        z-index: 1;
+      } 
+      
+    
+    .sub_catch{
+        font-size : 5.6vw;
+        line-height : 9.78vw;
+        text-align : center;
+        padding :8vw 5.86vw;
+    }
+
+}
+
+
+
